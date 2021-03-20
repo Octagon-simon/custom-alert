@@ -1,0 +1,92 @@
+<!Doctype html>
+
+<html>
+<head> 
+    <link href="fontawesome4/css/font-awesome.css" rel="stylesheet">
+    <link href="css/alert.css" rel="stylesheet">
+    <script type="text/javascript" src="js/alert.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    </head>
+<title> Custom Alerts</title>
+    <body>
+    <!--Custom Danger Alert-->
+ <div id="custom-danger-alert" class="custom-danger-alert">
+            <div class="text-left">
+
+                <p><b><i class="fa fa-times-circle"></i>&nbsp;</b> This is a custom danger Alert.
+                </p>
+                <button id="dismiss-custom-alert" onclick="dismiss_danger_alert()" class="close dismiss-custom-alert">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+        </div>
+<!--End-->
+
+        <!--Custom Danger Alert-->
+ <div id="custom-success-alert" class="custom-success-alert">
+            <div class="text-left">
+
+                <p><b><i class="fa fa-check-circle"></i>&nbsp;</b> This is a custom success Alert.
+                </p>
+                <button id="dismiss-custom-alert" onclick="dismiss_success_alert()" class="close dismiss-custom-alert">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+        </div>
+<!--End-->
+    
+     <!--Custom warning Alert-->
+ <div id="custom-warning-alert" class="custom-warning-alert">
+            <div class="text-left">
+
+                <p><b><i class="fa fa-exclamation-triangle"></i>&nbsp;</b> This is a custom warning Alert.
+                </p>
+                <button id="dismiss-custom-alert" onclick="dismiss_warning_alert()" class="close dismiss-custom-alert">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+        </div>
+<!--End-->
+    
+     <!--Custom primary Alert-->
+ <div id="custom-primary-alert" class="custom-primary-alert">
+            <div class="text-left">
+
+                <p><b><i class="fa fa-lightbulb-o"></i>&nbsp;</b> This is a custom primary Alert.
+                </p>
+                <button id="dismiss-custom-alert" onclick="dismiss_primary_alert()" class="close dismiss-custom-alert">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+        </div>
+<!--End-->
+    
+     <!--Custom info Alert-->
+ <div id="custom-info-alert" class="custom-info-alert">
+            <div class="text-left">
+
+                <p><b><i class="fa fa-lightbulb-o"></i>&nbsp;</b> This is a custom info Alert.
+                </p>
+                <button id="dismiss-custom-alert" onclick="dismiss_info_alert()" class="close dismiss-custom-alert">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+        </div>
+<!--End-->
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+    
+function dismiss_danger_alert() {
+    document.getElementById('custom-danger-alert').style.display="none";
+}
+    
+</script>
+
+
+
+
+
